@@ -1,58 +1,32 @@
 export const experiences = [
   {
-    title: "Senior Software Engineer",
-    company: "Tech Innovations Inc.",
-    location: "San Francisco, CA",
-    period: "January 2023 - Present",
+    title: "Full-Stack Engineer",
+    company: "DirecTV Client - Cognizant",
+    location: "Dallas, TX",
+    period: "August 2023 - Present",
     responsibilities: [
-      "Lead a team of 5 developers building a scalable microservices architecture",
-      "Implemented CI/CD pipelines reducing deployment time by 40%",
-      "Redesigned authentication system improving security and user experience",
-      "Mentored junior developers and conducted technical interviews",
-      "Collaborated with product and design teams to define technical requirements"
+      "Developed reusable React components, reducing development time by 25% and standardizing design",
+      "Implemented new features using React to enhance site functionality and user engagement",
+      "Engineered automated AEM-to-Storyblok content migration using Java and AWS, reducing manual work and errors",
+      "Led CMS deployments across multiple teams, ensuring timely and seamless code integrations",
+      "Collaborated with product owners to translate business requirements into technical solutions",
+      "Managed a cross-functional team spread across 4 time zones, improving project delivery efficiency by 15%"
     ],
-    technologies: ["React", "Node.js", "TypeScript", "AWS", "Docker", "Kubernetes"]
+    technologies: ["React", "Java", "TypeScript", "AWS", "Next.js"]
   },
   {
-    title: "Full Stack Developer",
-    company: "DataFlow Systems",
-    location: "Austin, TX",
-    period: "June 2020 - December 2022",
+    title: "Full-Stack Engineer",
+    company: "Cognizant",
+    location: "Dallas, TX",
+    period: "August 2022 - August 2023",
     responsibilities: [
-      "Developed and maintained multiple web applications for data visualization",
-      "Built RESTful APIs and optimized database queries improving performance by 35%",
-      "Implemented responsive designs ensuring compatibility across all devices",
-      "Participated in agile development processes and sprint planning",
-      "Collaborated with data scientists to create interactive dashboards"
+      "Developed an in-house full-stack application using Angular and Spring, enhancing functionality and performance",
+      "Built REST APIs using Spring Boot to support data operations and backend services",
+      "Integrated UI components with REST APIs using Angular, Redux, and Axios, ensuring seamless data flow",
+      "Conducted unit testing for frontend components using Jasmine, ensuring robust and reliable UI functionality",
+      "Performed backend testing using JUnit and Mockito, validating service logic and data integrity",
+      "Executed deployment of SPA app to Amazon S3 and Spring Boot application to Elastic Beanstalk, optimizing scalability and reliability"
     ],
     technologies: ["JavaScript", "React", "Python", "Django", "PostgreSQL", "Redis"]
-  },
-  {
-    title: "Frontend Developer",
-    company: "CreativeWeb Solutions",
-    location: "Remote",
-    period: "March 2018 - May 2020",
-    responsibilities: [
-      "Developed responsive, cross-browser compatible websites for clients",
-      "Created interactive UI components and animations",
-      "Optimized web performance achieving 95+ scores on Lighthouse",
-      "Collaborated with designers to implement pixel-perfect interfaces",
-      "Maintained legacy code and implemented modern development practices"
-    ],
-    technologies: ["HTML5", "CSS3", "JavaScript", "React", "SASS", "Webpack"]
-  },
-  {
-    title: "Junior Web Developer",
-    company: "Digital Solutions",
-    location: "Chicago, IL",
-    period: "September 2016 - February 2018",
-    responsibilities: [
-      "Built and maintained client websites using modern web technologies",
-      "Collaborated with the design team to implement responsive layouts",
-      "Fixed bugs and implemented new features for existing web applications",
-      "Assisted with server maintenance and deployment tasks",
-      "Participated in code reviews and documentation efforts"
-    ],
-    technologies: ["HTML", "CSS", "JavaScript", "jQuery", "PHP", "MySQL"]
   }
 ];
