@@ -1,7 +1,6 @@
 import React from 'react';
 import { FileText, Download, GraduationCap } from 'lucide-react';
 import { education } from '../data/education';
-import PDF from "../components/1PageResume_Modified.pdf";
 
 const Resume: React.FC = () => {
   return (
@@ -29,7 +28,7 @@ const Resume: React.FC = () => {
                 </div>
               </div>
               <a 
-                href="PDF"
+                href="/PapriaBhuiyan_Resume.pdf"
                 target = "_blank"
                 className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-teal-600 to-amber-600 rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/20"
               >
