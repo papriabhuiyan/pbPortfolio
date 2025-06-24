@@ -12,7 +12,7 @@ export const experiences = [
       "Collaborated with product owners to translate business requirements into technical solutions",
       "Managed a cross-functional team spread across 4 time zones, improving project delivery efficiency by 15%"
     ],
-    technologies: ["React", "Java", "TypeScript", "AWS", "Next.js"]
+    technologies: ["React", "Java", "TypeScript", "AWS", "Next.js", "AEM", "StoryBlok"]
   },
   {
     title: "Full-Stack Engineer",
@@ -27,6 +27,6 @@ export const experiences = [
       "Performed backend testing using JUnit and Mockito, validating service logic and data integrity",
       "Executed deployment of SPA app to Amazon S3 and Spring Boot application to Elastic Beanstalk, optimizing scalability and reliability"
     ],
-    technologies: ["JavaScript", "React", "Python", "Django", "PostgreSQL", "Redis"]
+    technologies: ["Angular", "React", "Python", "Java", "PostgreSQL", "MySQL", "Vue.js", "AWS"]
   }
 ];

@@ -7,21 +7,21 @@ const Hero: React.FC = () => {
     <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center relative overflow-hidden">
       {/* Abstract background shapes */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-gradient-to-br from-[#441151] to-[#0c120c] rounded-full blur-3xl"></div>
-        <div className="absolute -bottom-1/2 -right-1/2 w-full h-full bg-gradient-to-tl from-[#441151] to-[#0c120c] rounded-full blur-3xl"></div>
+        <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-gradient-to-br from-indigo-700 to-[#0c120c] rounded-full blur-3xl"></div>
+        <div className="absolute -bottom-1/2 -right-1/2 w-full h-full bg-gradient-to-tl from-indigo-950 to-[#0c120c] rounded-full blur-3xl"></div>
       </div>
       
       <div className="container mx-auto relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <div className="mb-8 relative inline-block">
-            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-[#9381ff] to-[#b8b8ff] p-1">
+            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-indigo-500 to-[#b8b8ff] p-1">
               <div className="w-full h-full rounded-full bg-slate-950 flex items-center justify-center">
-                <span className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#9381ff] to-[#b8b8ff]"><img src={avatar} className='w-full h-full object-cover rounded-full'/></span>
+                <span className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-[#b8b8ff]"><img src={avatar} className='w-full h-full object-cover rounded-full'/></span>
               </div>
             </div>
           </div>
           
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-[#b8b8ff] to-[#b8b8ff] text-transparent bg-clip-text animate-gradient">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-indigo-500 to-[#b8b8ff] text-transparent bg-clip-text animate-gradient">
             Papria Bhuiyan
           </h1>
           
@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
                 const element = document.getElementById('contact');
                 element?.scrollIntoView({ behavior: 'smooth' });
               }}
-              className="px-8 py-4 bg-gradient-to-r from-[#b8b8ff] to-[#441151] rounded-xl font-medium transition-all duration-300 hover:shadow-lg hover:shadow-[#441151] hover:scale-105"
+              className="px-8 py-4 bg-gradient-to-r from-[#b8b8ff] to-indigo-500 rounded-xl font-medium transition-all duration-300 hover:shadow-lg hover:shadow-[#441151] hover:scale-105"
             >
               Contact Me
             </button>
