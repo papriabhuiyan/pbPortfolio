@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer id="contact" className="bg-gray-900 py-12 px-4 sm:px-6 lg:px-8 border-t border-gray-800">
+    <footer id="contact" className="bg-slate-900 py-12 px-4 sm:px-6 lg:px-8 border-t border-slate-800">
       <div className="container mx-auto">
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
               
               <a 
                 href="mailto:john.doe@example.com"
-                className="inline-flex items-center px-4 py-2 bg-indigo-600 hover:bg-indigo-700 rounded-lg transition-colors duration-300"
+                className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-indigo-500 to-[#f6ab64] hover:bg-indigo-700 rounded-lg transition-colors duration-300"
               >
                 <Mail className="w-5 h-5 mr-2" />
                 papriabhuiyan@gmail.com
@@ -49,14 +49,6 @@ const Footer: React.FC = () => {
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a 
-                  href="#" 
-                  target="_blank"
-                  className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors duration-300"
-                  aria-label="Twitter"
-                >
-                  <Twitter className="w-5 h-5" />
-                </a>
-                <a 
                   href="mailto:papriabhuiyan@gmail.com" 
                   target="_blank"
                   className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors duration-300"
@@ -69,9 +61,8 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
-            {/* <p>© {currentYear} John Doe. All rights reserved.</p> */}
             <p className="mt-2">
-              Built with React and Tailwind CSS
+              Built by Papria Bhuiyan with React and Tailwind CSS
             </p>
           </div>
         </div>

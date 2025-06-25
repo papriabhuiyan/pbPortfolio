@@ -4,11 +4,11 @@ import { education } from '../data/education';
 
 const Resume: React.FC = () => {
   return (
-    <section id="resume" className="py-20 px-4 sm:px-6 lg:px-8 bg-[#0c120c] relative overflow-hidden">
+    <section id="resume" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 relative overflow-hidden">
       {/* Background effects */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 left-0 w-1/2 h-1/2 bg-gradient-to-br from-indigo-950 to-transparent rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-1/2 h-1/2 bg-gradient-to-tl from-indigo-950 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute top-0 left-0 w-1/2 h-1/2 bg-gradient-to-br from-slate-950 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-1/2 h-1/2 bg-gradient-to-tl from-slate-950 to-transparent rounded-full blur-3xl"></div>
       </div>
 
       <div className="container mx-auto">

@@ -6,9 +6,9 @@ const Experience: React.FC = () => {
   const [activeExperience, setActiveExperience] = useState(0);
 
   return (
-    <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800">
+    <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-950 to-slate-950">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-12 text-center">Experience</h2>
+        <h2 className="text-3xl font-bold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-[#f6ab64]">Experience</h2>
         
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row gap-8">
@@ -21,7 +21,7 @@ const Experience: React.FC = () => {
                     onClick={() => setActiveExperience(index)}
                     className={`w-full text-left px-4 py-3 rounded-lg transition-all duration-300 flex items-center ${
                       activeExperience === index 
-                        ? 'bg-indigo-900/40 border-l-4 border-indigo-500' 
+                        ? 'bg-indigo-900/40 border-l-4 border-[#f6ab64]' 
                         : 'bg-gray-900/40 hover:bg-gray-700/40'
                     }`}
                   >
@@ -39,7 +39,7 @@ const Experience: React.FC = () => {
             {/* Experience details */}
             <div className="md:w-2/3 bg-gray-900 p-6 rounded-lg shadow-md">
               <div className="mb-6">
-                <h3 className="text-xl font-semibold text-indigo-400">
+                <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-[#f6ab64]">
                   {experiences[activeExperience].title}
                 </h3>
                 
@@ -59,7 +59,7 @@ const Experience: React.FC = () => {
                 {experiences[activeExperience].responsibilities.map((responsibility, index) => (
                   <div key={index} className="flex items-start">
                     <div className="min-w-4 h-4 mt-1.5 mr-3">
-                      <div className="w-1.5 h-1.5 bg-indigo-500 rounded-full"></div>
+                      <div className="w-1.5 h-1.5 bg-[#f6ab64] rounded-full"></div>
                     </div>
                     <p className="text-gray-300">{responsibility}</p>
                   </div>

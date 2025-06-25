@@ -8,7 +8,7 @@ const Projects: React.FC = () => {
   return (
     <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-4 text-center">Projects</h2>
+        <h2 className="text-3xl font-bold mb-4 text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-[#f6ab64]">Projects</h2>
         <p className="text-gray-400 max-w-2xl mx-auto text-center mb-12">
           A selection of my recent work and personal projects. Each project is briefly described with links to code repositories and live demos.
         </p>
@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
           {projects.map((project, index) => (
             <div 
               key={index}
-              className="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-all duration-500 transform hover:-translate-y-2"
+              className="bg-slate-900 rounded-lg overflow-hidden shadow-lg transition-all duration-500 transform hover:-translate-y-2"
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
               
               <div className="p-6">
                 <div className="flex justify-between items-center mb-3">
-                  <h3 className="text-xl font-semibold text-indigo-400">{project.title}</h3>
+                  <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-[#f6ab64]">{project.title}</h3>
                   <div className="flex space-x-2">
                     {project.github && (
                       <a 

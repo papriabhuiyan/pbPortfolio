@@ -28,5 +28,18 @@ export const experiences = [
       "Executed deployment of SPA app to Amazon S3 and Spring Boot application to Elastic Beanstalk, optimizing scalability and reliability"
     ],
     technologies: ["Angular", "React", "Python", "Java", "PostgreSQL", "MySQL", "Vue.js", "AWS"]
+  },
+  {
+    title: "Software Developer",
+    company: "Caruth Institute of Engineering Education, SMU",
+    location: "Dallas, TX",
+    period: "Jan 2021 - May 2021",
+    responsibilities: [
+      "Executed automated recycling bin initiative using Python",
+      "Led a team of 5 developers to develop the prototype",
+      "Implemented algorithms to optimize application performance",
+      "Collaborated with stakeholders to define requirements and implement data-driven solutions"
+    ],
+    technologies: ["JIRA", "Python", "ServiceNow"]
   }
 ];
