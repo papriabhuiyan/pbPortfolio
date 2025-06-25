@@ -37,7 +37,7 @@ const Experience: React.FC = () => {
             </div>
             
             {/* Experience details */}
-            <div className="md:w-2/3 bg-gray-900 p-6 rounded-lg shadow-md">
+            <div className="md:w-2/3 bg-slate-900 p-6 rounded-lg shadow-md">
               <div className="mb-6">
                 <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-[#f6ab64]">
                   {experiences[activeExperience].title}

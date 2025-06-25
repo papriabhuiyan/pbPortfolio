@@ -31,7 +31,7 @@ const Projects: React.FC = () => {
                   }}
                 />
                 <div 
-                  className={`absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-70 transition-opacity duration-300 ${
+                  className={`absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-70 transition-opacity duration-300 ${
                     hoveredIndex === index ? 'opacity-90' : 'opacity-70'
                   }`}
                 ></div>
@@ -70,7 +70,7 @@ const Projects: React.FC = () => {
                   {project.technologies.map((tech, techIndex) => (
                     <span 
                       key={techIndex}
-                      className="px-2 py-1 text-xs bg-gray-700 text-gray-300 rounded-md"
+                      className="px-2 py-1 text-xs bg-slate-700 text-gray-300 rounded-md"
                     >
                       {tech}
                     </span>
