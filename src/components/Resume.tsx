@@ -28,7 +28,7 @@ const Resume: React.FC = () => {
                 </div>
               </div>
               <a 
-                href="/PapriaBhuiyan_Resume.pdf"
+                href="/pbPortfolio/PapriaBhuiyan_Resume.pdf"
                 target = "_blank"
                 className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-indigo-500 to-[#f6ab64] rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/20"
               >
