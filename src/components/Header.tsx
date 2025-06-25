@@ -50,10 +50,10 @@ const Header: React.FC = () => {
               Resume
             </button>
             <button 
-              onClick={() => scrollToSection('projects')}
+              onClick={() => scrollToSection('skills')}
               className="text-gray-300 hover:text-indigo-400 transition-colors duration-300"
             >
-              Projects
+              Skills
             </button>
             <button 
               onClick={() => scrollToSection('experience')}
@@ -62,10 +62,10 @@ const Header: React.FC = () => {
               Experience
             </button>
             <button 
-              onClick={() => scrollToSection('skills')}
+              onClick={() => scrollToSection('projects')}
               className="text-gray-300 hover:text-indigo-400 transition-colors duration-300"
             >
-              Skills
+              Projects
             </button>
           </nav>
           

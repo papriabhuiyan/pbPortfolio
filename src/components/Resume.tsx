@@ -13,12 +13,12 @@ const Resume: React.FC = () => {
 
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto relative z-10">
-          <h2 className="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-[#b8b8ff] to-indigo-500 text-transparent bg-clip-text">
+          <h2 className="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-indigo-500 to-[#f6ab64] text-transparent bg-clip-text">
             Resume & Education
           </h2>
           
           {/* Resume Download Section */}
-          <div className="bg-slate-900/50 backdrop-blur-sm p-6 rounded-xl shadow-lg mb-12">
+          <div className="bg-slate-900/50 backdrop-blur-sm p-6 rounded-xl shadow-lg mb-12 hover:shadow-lg hover:shadow-[#f6ab6494] transition-all duration-300">
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-3">
                 <FileText className="w-8 h-8 text-indigo-500" />
@@ -30,7 +30,7 @@ const Resume: React.FC = () => {
               <a 
                 href="/PapriaBhuiyan_Resume.pdf"
                 target = "_blank"
-                className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#b8b8ff] to-indigo-500 rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/20"
+                className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-indigo-500 to-[#f6ab64] rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/20"
               >
                 <Download size={18} />
                 Download
@@ -49,11 +49,11 @@ const Resume: React.FC = () => {
               {education.map((edu, index) => (
                 <div 
                   key={index}
-                  className="bg-slate-900/50 backdrop-blur-sm p-4 rounded-xl hover:shadow-lg hover:shadow-indigo-300/10 transition-all duration-300"
+                  className="bg-slate-900/50 backdrop-blur-sm p-4 rounded-xl hover:shadow-lg hover:shadow-[#f6ab646b] transition-all duration-300"
                 >
                   <div className="flex items-center justify-between gap-4">
                     <div>
-                      <h4 className="font-semibold text-indigo-500">{edu.degree}</h4>
+                      <h4 className="font-semibold text-indigo-400">{edu.degree}</h4>
                       <p className="text-sm text-gray-300">{edu.institution} • {edu.location}</p>
                       {/* <p className="text-sm text-gray-400 mt-1">{edu.description}</p> */}
                     </div>

@@ -18,7 +18,7 @@ const Skills: React.FC = () => {
       </div>
 
       <div className="container mx-auto relative z-10">
-        <h2 className="text-3xl font-bold mb-4 text-center bg-gradient-to-r from-[#b8b8ff] to-indigo-500 text-transparent bg-clip-text">
+        <h2 className="text-3xl font-bold mb-4 text-center bg-gradient-to-r from-indigo-500 to-[#f6ab64] text-transparent bg-clip-text">
           Technical Proficiency
         </h2>
         <p className="text-gray-400 max-w-2xl mx-auto text-center mb-12">
@@ -33,7 +33,7 @@ const Skills: React.FC = () => {
               onClick={() => setActiveCategory(category.id)}
               className={`px-6 py-3 rounded-xl backdrop-blur-sm transition-all duration-300 flex items-center gap-2 ${
                 activeCategory === category.id
-                  ? 'bg-gradient-to-r from-[#b8b8ff] to-indigo-500 shadow-lg shadow-indigo-200/10'
+                  ? 'bg-gradient-to-r from-indigo-500 to-[#f6ab64] shadow-lg shadow-indigo-200/10'
                   : 'bg-slate-900/30 hover:bg-slate-800/30'
               }`}
             >
@@ -52,7 +52,7 @@ const Skills: React.FC = () => {
             .map((skill, index) => (
               <div
                 key={index}
-                className="group relative bg-slate-900/50 backdrop-blur-sm p-6 rounded-xl hover:bg-slate-800/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-200/10"
+                className="group relative bg-slate-900/50 backdrop-blur-sm p-6 rounded-xl hover:bg-slate-800/50 transition-all duration-300 hover:shadow-lg hover:shadow-[#f6ab6494]"
               >
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-lg font-semibold text-white">{skill.name}</h3>
@@ -63,7 +63,7 @@ const Skills: React.FC = () => {
                 <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                   {/* Progress bar fill */}
                   <div
-                    className="h-full bg-gradient-to-r from-[#b8b8ff] to-indigo-500 transform origin-left transition-transform duration-1000 ease-out"
+                    className="h-full bg-gradient-to-r from-indigo-500 to-[#f6ab64] transform origin-left transition-transform duration-1000 ease-out"
                     style={{ 
                       width: `${skill.level}%`,
                       transform: `scaleX(${1})` 
@@ -79,7 +79,7 @@ const Skills: React.FC = () => {
 
         {/* Languages Section */}
         <div className="mt-20">
-          <h3 className="text-2xl font-semibold text-center mb-8 bg-gradient-to-r from-[#b8b8ff] to-indigo-500 text-transparent bg-clip-text">
+          <h3 className="text-2xl font-semibold text-center mb-8 bg-gradient-to-r from-indigo-500 to-[#f6ab64] text-transparent bg-clip-text">
             Programming Languages
           </h3>
           <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
