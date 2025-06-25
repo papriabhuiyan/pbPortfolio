@@ -12,7 +12,6 @@ const Experience: React.FC = () => {
         
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row gap-8">
-            {/* Timeline navigation */}
             <div className="md:w-1/3">
               <div className="sticky top-24 space-y-2">
                 {experiences.map((experience, index) => (

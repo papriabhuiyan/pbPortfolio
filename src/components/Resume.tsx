@@ -5,7 +5,7 @@ import { education } from '../data/education';
 const Resume: React.FC = () => {
   return (
     <section id="resume" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 relative overflow-hidden">
-      {/* Background effects */}
+      {/* Background effects - removed for the timebeing*/}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 left-0 w-1/2 h-1/2 bg-gradient-to-br from-slate-950 to-transparent rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-0 w-1/2 h-1/2 bg-gradient-to-tl from-slate-950 to-transparent rounded-full blur-3xl"></div>
@@ -55,7 +55,6 @@ const Resume: React.FC = () => {
                     <div>
                       <h4 className="font-semibold text-indigo-400">{edu.degree}</h4>
                       <p className="text-sm text-gray-300">{edu.institution} • {edu.location}</p>
-                      {/* <p className="text-sm text-gray-400 mt-1">{edu.description}</p> */}
                     </div>
                     <span className="text-sm text-gray-300 whitespace-nowrap">{edu.period}</span>
                   </div>

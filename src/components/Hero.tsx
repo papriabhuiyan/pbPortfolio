@@ -67,15 +67,6 @@ const Hero: React.FC = () => {
             >
               Contact Me
             </button>
-            
-            {/* <a 
-              href="/resume.pdf" 
-              download
-              className="px-8 py-4 bg-slate-900/50 backdrop-blur-sm rounded-xl font-medium flex items-center justify-center gap-2 transition-all duration-300 hover:bg-slate-800/50 hover:shadow-lg hover:shadow-amber-500/20 hover:scale-105"
-            >
-              <FileText className="w-5 h-5" />
-              Download CV
-            </a> */}
           </div>
         </div>
       </div>

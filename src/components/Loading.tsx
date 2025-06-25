@@ -1,5 +1,5 @@
 import React from 'react';
-import { Loader2 } from 'lucide-react'; // Optional: install with `npm install lucide-react`
+import { Loader2 } from 'lucide-react';
 
 const LoadingScreen: React.FC = () => {
   return (
